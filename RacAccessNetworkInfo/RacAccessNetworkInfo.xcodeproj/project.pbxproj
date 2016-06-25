@@ -16,6 +16,8 @@
 		F96B88231D1E3B54003F074E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96B88211D1E3B54003F074E /* LaunchScreen.storyboard */; };
 		F96B882E1D1E3B54003F074E /* RacAccessNetworkInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B882D1D1E3B54003F074E /* RacAccessNetworkInfoTests.m */; };
 		F96B88391D1E3B54003F074E /* RacAccessNetworkInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B88381D1E3B54003F074E /* RacAccessNetworkInfoUITests.m */; };
+		F96B88491D1E4F2F003F074E /* RequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B88481D1E4F2F003F074E /* RequestModel.m */; };
+		F96B884C1D1E5497003F074E /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = F96B884B1D1E5497003F074E /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		F96B88381D1E3B54003F074E /* RacAccessNetworkInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RacAccessNetworkInfoUITests.m; sourceTree = "<group>"; };
 		F96B883A1D1E3B54003F074E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F96B88461D1E3CB2003F074E /* GlobalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalHeader.h; sourceTree = "<group>"; };
+		F96B88471D1E4F2F003F074E /* RequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestModel.h; sourceTree = "<group>"; };
+		F96B88481D1E4F2F003F074E /* RequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestModel.m; sourceTree = "<group>"; };
+		F96B884A1D1E5497003F074E /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		F96B884B1D1E5497003F074E /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		FE2D6CA5E49A29935354FF77 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +142,10 @@
 				F96B88241D1E3B54003F074E /* Info.plist */,
 				F96B88131D1E3B54003F074E /* Supporting Files */,
 				F96B88461D1E3CB2003F074E /* GlobalHeader.h */,
+				F96B88471D1E4F2F003F074E /* RequestModel.h */,
+				F96B88481D1E4F2F003F074E /* RequestModel.m */,
+				F96B884A1D1E5497003F074E /* Book.h */,
+				F96B884B1D1E5497003F074E /* Book.m */,
 			);
 			path = RacAccessNetworkInfo;
 			sourceTree = "<group>";
@@ -347,9 +357,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F96B884C1D1E5497003F074E /* Book.m in Sources */,
 				F96B881B1D1E3B54003F074E /* ViewController.m in Sources */,
 				F96B88181D1E3B54003F074E /* AppDelegate.m in Sources */,
 				F96B88151D1E3B54003F074E /* main.m in Sources */,
+				F96B88491D1E4F2F003F074E /* RequestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
